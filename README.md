@@ -56,13 +56,16 @@ streamlit run main.py
 ## 📁 Project Structure
 ```
 📦 nigeria-state-predictor/
-├── main.py               
-├── main_model.keras    
-├── scaler.pkl            
-├── requirements.txt      
+┣ 📜main.py                        
+┣ 📜requirements.txt
+┣ 📜runtime.txt
+┣ 📜scaler.pkl
+┣ 📜main_model.keras
+┗ 🖼️screenshot.png      
 ├── .streamlit/
 │   └── config.toml       
 └── README.md              
+
 
 ```
 ## 📸 Screenshots
