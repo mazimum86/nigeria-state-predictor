@@ -8,7 +8,7 @@ import pickle
 def load_model():
     with open("scaler.pkl", "rb") as f:
         scaler = pickle.load(f)
-    model = tf.keras.models.load_model("main_model.keras")
+    model = tf.keras.models.load_model("main_model.h5")
     return scaler, model
 
 scaler, model = load_model()
